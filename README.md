@@ -3,6 +3,12 @@
 A collection of IOS classes,categories, and utility files that improves upon existing classes and improves development time drastically. 
 These files are used internally for all akimbo IOS projects.
 
+# Examples
+
+Examples can be found in the examples directory, to see the examples just run the examples target in the ios simulator
+
+# Components
+
 ## AkimboDataStore
 
 Provides an interface for storing any sort of object that contains data that needs to be used at a later time. These data stores are used extensively throughout the akimbo core framework.
