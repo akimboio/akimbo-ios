@@ -14,6 +14,7 @@
 
 @implementation ExampleTableSingleSection
 
+#pragma mark - Init Methods
 - (void)initSections
 {
     [super initSections];
@@ -26,6 +27,7 @@
     [section.store load:records];
 }
 
+#pragma mark - AkimboUITableViewSection Delegate Methods
 - (void)tableSection:(AkimboUITableViewControllerSection *)section configureCell:(UITableViewCell *)cell withRecord:(NSDictionary *)record
 {
     [cell.textLabel setText:[record objectForKey:@"topic_title"]];

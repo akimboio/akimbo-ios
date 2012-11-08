@@ -15,6 +15,7 @@
 
 @implementation ExampleTableMultipleSources
 
+#pragma mark - Init Methods
 - (void)initSections
 {
     [super initSections];
@@ -51,6 +52,7 @@
     }
 }
 
+#pragma mark - AkimboUITableViewSection Delegate Methods
 - (void)tableSection:(AkimboUITableViewControllerSection *)section configureCell:(UITableViewCell *)cell withRecord:(NSDictionary *)record
 {
     NSString *text = @"";
