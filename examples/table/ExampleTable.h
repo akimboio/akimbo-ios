@@ -8,6 +8,15 @@
 
 #import "Akimbo.h"
 
+enum {
+    ExampleTableDataSourceSencha = 0,
+    ExampleTableDataSourceNooga = 1,
+};
+typedef NSUInteger ExampleTableDataSource;
+
 @interface ExampleTable : AkimboUITableViewController <AkimboUITableViewControllerSectionDelegate>
+
+- (NSDictionary *)getData:(ExampleTableDataSource)source;
+- (UILabel *)createHeaderWithText:(NSString *)text;
 
 @end

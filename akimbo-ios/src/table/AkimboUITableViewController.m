@@ -46,13 +46,10 @@
 
 - (void)initStyle
 {
-    //Set the seperator color to clear
-    self.tableView.separatorColor = [UIColor clearColor];
 }
 
 - (void)dealloc
 {
-    
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////

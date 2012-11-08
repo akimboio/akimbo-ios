@@ -14,27 +14,42 @@
 
 @implementation ExampleTable
 
-- (void)initSections
+- (void)dealloc
 {
-    [super initSections];
-    
-    AkimboUITableViewControllerSection *section = [[AkimboUITableViewControllerSection alloc] init];
-    [self addSection:section];
-    [section addDelegate:self];
-    
-    //Add some fake items to the store
-    NSMutableArray *items = [[NSMutableArray alloc] init];
-    for (int i = 0; i < 50; i++) {
-        [items addObject:@{
-            @"name": [NSString stringWithFormat:@"Item - %d", i]
-        }];
+    for (AkimboUITableViewControllerSection *section in self.sections) {
+        [section removeDelegate:self];
     }
-    [section.store load:items];
 }
 
-- (void)tableSection:(AkimboUITableViewControllerSection *)section configureCell:(UITableViewCell *)cell withRecord:(NSDictionary *)record
+- (UILabel *)createHeaderWithText:(NSString *)text
 {
-    [cell.textLabel setText:[record objectForKey:@"name"]];
+    UILabel *headerLabel = [[UILabel alloc] init];
+    [headerLabel setBackgroundColor:[UIColor grayColor]];
+    [headerLabel setTextColor:[UIColor whiteColor]];
+    [headerLabel setText:text];
+    [headerLabel sizeToFit];
+    return headerLabel;
+}
+
+- (NSDictionary *)getData:(ExampleTableDataSource)source
+{
+    NSString *urlSource = @"";
+    switch (source) {
+        case 0:
+            urlSource = @"http://www.sencha.com/forum/topics-remote.php?&limit=30";
+            break;
+            
+        case 1:
+            urlSource = @"http://nooga.com/article/article-api/public?category=1&limit=50";
+            break;
+        default:
+            break;
+    }
+
+    //Add some fake items to the store
+    NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlSource]];
+    id jsonObjects = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+    return jsonObjects;
 }
 
 @end

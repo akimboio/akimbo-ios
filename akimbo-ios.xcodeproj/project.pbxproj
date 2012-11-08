@@ -44,6 +44,11 @@
 		E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFDF164C1E000025EDEB /* AkimboUtils.m */; };
 		E4EABFE3164C22890025EDEB /* libakimbo-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */; };
 		E4EABFE6164C23310025EDEB /* ExampleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFE5164C23310025EDEB /* ExampleTable.m */; };
+		E4EAC004164C4B690025EDEB /* ExampleTableSingleSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC003164C4B690025EDEB /* ExampleTableSingleSection.m */; };
+		E4EAC007164C4BCE0025EDEB /* ExampleTableMultipleSources.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC006164C4BCE0025EDEB /* ExampleTableMultipleSources.m */; };
+		E4EAC00E164C4D240025EDEB /* ExampleMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC00D164C4D240025EDEB /* ExampleMainNavigationViewController.m */; };
+		E4EAC011164C4D830025EDEB /* ExampleMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */; };
+		E4EAC014164C53FC0025EDEB /* ExampleTableMultipleSections.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +145,16 @@
 		E4EABFE4164C23310025EDEB /* ExampleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTable.h; path = table/ExampleTable.h; sourceTree = "<group>"; };
 		E4EABFE5164C23310025EDEB /* ExampleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTable.m; path = table/ExampleTable.m; sourceTree = "<group>"; };
 		E4EABFE8164C23C10025EDEB /* Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akimbo.h; sourceTree = "<group>"; };
+		E4EAC002164C4B690025EDEB /* ExampleTableSingleSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableSingleSection.h; path = table/ExampleTableSingleSection.h; sourceTree = "<group>"; };
+		E4EAC003164C4B690025EDEB /* ExampleTableSingleSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableSingleSection.m; path = table/ExampleTableSingleSection.m; sourceTree = "<group>"; };
+		E4EAC005164C4BCE0025EDEB /* ExampleTableMultipleSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableMultipleSources.h; path = table/ExampleTableMultipleSources.h; sourceTree = "<group>"; };
+		E4EAC006164C4BCE0025EDEB /* ExampleTableMultipleSources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableMultipleSources.m; path = table/ExampleTableMultipleSources.m; sourceTree = "<group>"; };
+		E4EAC00C164C4D240025EDEB /* ExampleMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMainNavigationViewController.h; sourceTree = "<group>"; };
+		E4EAC00D164C4D240025EDEB /* ExampleMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMainNavigationViewController.m; sourceTree = "<group>"; };
+		E4EAC00F164C4D820025EDEB /* ExampleMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMainTableViewController.h; sourceTree = "<group>"; };
+		E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMainTableViewController.m; sourceTree = "<group>"; };
+		E4EAC012164C53FB0025EDEB /* ExampleTableMultipleSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableMultipleSections.h; path = table/ExampleTableMultipleSections.h; sourceTree = "<group>"; };
+		E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableMultipleSections.m; path = table/ExampleTableMultipleSections.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +274,7 @@
 		E4EABF6B164C18010025EDEB /* examples */ = {
 			isa = PBXGroup;
 			children = (
+				E4EAC00B164C4D230025EDEB /* main */,
 				E4EABF74164C18010025EDEB /* AppDelegate.h */,
 				E4EABF75164C18010025EDEB /* AppDelegate.m */,
 				E4EABF6C164C18010025EDEB /* Supporting Files */,
@@ -381,8 +397,25 @@
 			children = (
 				E4EABFE4164C23310025EDEB /* ExampleTable.h */,
 				E4EABFE5164C23310025EDEB /* ExampleTable.m */,
+				E4EAC002164C4B690025EDEB /* ExampleTableSingleSection.h */,
+				E4EAC003164C4B690025EDEB /* ExampleTableSingleSection.m */,
+				E4EAC005164C4BCE0025EDEB /* ExampleTableMultipleSources.h */,
+				E4EAC006164C4BCE0025EDEB /* ExampleTableMultipleSources.m */,
+				E4EAC012164C53FB0025EDEB /* ExampleTableMultipleSections.h */,
+				E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */,
 			);
 			name = table;
+			sourceTree = "<group>";
+		};
+		E4EAC00B164C4D230025EDEB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E4EAC00C164C4D240025EDEB /* ExampleMainNavigationViewController.h */,
+				E4EAC00D164C4D240025EDEB /* ExampleMainNavigationViewController.m */,
+				E4EAC00F164C4D820025EDEB /* ExampleMainTableViewController.h */,
+				E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -586,6 +619,11 @@
 				E4EABF72164C18010025EDEB /* main.m in Sources */,
 				E4EABF76164C18010025EDEB /* AppDelegate.m in Sources */,
 				E4EABFE6164C23310025EDEB /* ExampleTable.m in Sources */,
+				E4EAC004164C4B690025EDEB /* ExampleTableSingleSection.m in Sources */,
+				E4EAC007164C4BCE0025EDEB /* ExampleTableMultipleSources.m in Sources */,
+				E4EAC00E164C4D240025EDEB /* ExampleMainNavigationViewController.m in Sources */,
+				E4EAC011164C4D830025EDEB /* ExampleMainTableViewController.m in Sources */,
+				E4EAC014164C53FC0025EDEB /* ExampleTableMultipleSections.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

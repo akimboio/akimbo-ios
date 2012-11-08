@@ -78,7 +78,7 @@
     canEdit = NO;
     canDelete = NO;
     cellHeight = 44.0f;
-    cellIsXib = YES;
+    cellIsXib = NO;
     [self initHeader];
     [self initFooter];
 }
