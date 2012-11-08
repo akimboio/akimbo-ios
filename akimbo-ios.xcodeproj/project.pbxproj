@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4EABF3A164C17BB0025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		E4EABF49164C17BB0025EDEB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */; };
+		E4EABF4B164C17BB0025EDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
+		E4EABF4C164C17BB0025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		E4EABF4F164C17BB0025EDEB /* libakimbo-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */; };
+		E4EABF55164C17BB0025EDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF53164C17BB0025EDEB /* InfoPlist.strings */; };
+		E4EABF58164C17BB0025EDEB /* akimbo_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */; };
+		E4EABF67164C18010025EDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
+		E4EABF68164C18010025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		E4EABF6A164C18010025EDEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF69164C18010025EDEB /* CoreGraphics.framework */; };
+		E4EABF70164C18010025EDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF6E164C18010025EDEB /* InfoPlist.strings */; };
+		E4EABF72164C18010025EDEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF71164C18010025EDEB /* main.m */; };
+		E4EABF76164C18010025EDEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF75164C18010025EDEB /* AppDelegate.m */; };
+		E4EABF78164C18010025EDEB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF77164C18010025EDEB /* Default.png */; };
+		E4EABF7A164C18010025EDEB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF79164C18010025EDEB /* Default@2x.png */; };
+		E4EABF7C164C18010025EDEB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF7B164C18010025EDEB /* Default-568h@2x.png */; };
+		E4EABF83164C18020025EDEB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */; };
+		E4EABF84164C18020025EDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
+		E4EABF85164C18020025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		E4EABF8D164C18020025EDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF8B164C18020025EDEB /* InfoPlist.strings */; };
+		E4EABF90164C18020025EDEB /* examplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF8F164C18020025EDEB /* examplesTests.m */; };
+		E4EABFB7164C19E00025EDEB /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */; };
+		E4EABFB8164C19E00025EDEB /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB2164C19E00025EDEB /* NSString+Validation.m */; };
+		E4EABFB9164C19E00025EDEB /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */; };
+		E4EABFBA164C19E00025EDEB /* UIImage+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */; };
+		E4EABFC2164C1AC00025EDEB /* AkimboUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */; };
+		E4EABFC3164C1AC00025EDEB /* AkimboUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */; };
+		E4EABFC4164C1AC00025EDEB /* AkimboUITableViewControllerSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */; };
+		E4EABFCA164C1BC80025EDEB /* AkimboObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */; };
+		E4EABFCB164C1BC80025EDEB /* AkimboWeakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */; };
+		E4EABFD2164C1BD40025EDEB /* NSMutableArray+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */; };
+		E4EABFD3164C1BD40025EDEB /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */; };
+		E4EABFD7164C1C3B0025EDEB /* NSString+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */; };
+		E4EABFDC164C1D670025EDEB /* AkimboDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */; };
+		E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFDF164C1E000025EDEB /* AkimboUtils.m */; };
+		E4EABFE3164C22890025EDEB /* libakimbo-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */; };
+		E4EABFE6164C23310025EDEB /* ExampleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFE5164C23310025EDEB /* ExampleTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EABF4D164C17BB0025EDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EABF35164C17BB0025EDEB;
+			remoteInfo = "akimbo-ios";
+		};
+		E4EABF86164C18020025EDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EABF64164C18010025EDEB;
+			remoteInfo = examples;
+		};
+		E4EABFE1164C22820025EDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EABF35164C17BB0025EDEB;
+			remoteInfo = "akimbo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4EABF34164C17BB0025EDEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libakimbo-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EABF39164C17BB0025EDEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4EABF3D164C17BB0025EDEB /* akimbo-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "akimbo-ios-Prefix.pch"; sourceTree = "<group>"; };
+		E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "akimbo-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4EABF4A164C17BB0025EDEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4EABF52164C17BB0025EDEB /* akimbo-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "akimbo-iosTests-Info.plist"; sourceTree = "<group>"; };
+		E4EABF54164C17BB0025EDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EABF56164C17BB0025EDEB /* akimbo_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = akimbo_iosTests.h; sourceTree = "<group>"; };
+		E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = akimbo_iosTests.m; sourceTree = "<group>"; };
+		E4EABF65164C18010025EDEB /* examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EABF69164C18010025EDEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4EABF6D164C18010025EDEB /* examples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "examples-Info.plist"; sourceTree = "<group>"; };
+		E4EABF6F164C18010025EDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EABF71164C18010025EDEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EABF73164C18010025EDEB /* examples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "examples-Prefix.pch"; sourceTree = "<group>"; };
+		E4EABF74164C18010025EDEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4EABF75164C18010025EDEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4EABF77164C18010025EDEB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E4EABF79164C18010025EDEB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E4EABF7B164C18010025EDEB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E4EABF82164C18020025EDEB /* examplesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examplesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EABF8A164C18020025EDEB /* examplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "examplesTests-Info.plist"; sourceTree = "<group>"; };
+		E4EABF8C164C18020025EDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EABF8E164C18020025EDEB /* examplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = examplesTests.h; sourceTree = "<group>"; };
+		E4EABF8F164C18020025EDEB /* examplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = examplesTests.m; sourceTree = "<group>"; };
+		E4EABFAF164C19E00025EDEB /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		E4EABFB1164C19E00025EDEB /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		E4EABFB2164C19E00025EDEB /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		E4EABFB3164C19E00025EDEB /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E4EABFB5164C19E00025EDEB /* UIImage+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawing.h"; sourceTree = "<group>"; };
+		E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawing.m"; sourceTree = "<group>"; };
+		E4EABFBC164C1AC00025EDEB /* AkimboUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewCell.h; sourceTree = "<group>"; };
+		E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewCell.m; sourceTree = "<group>"; };
+		E4EABFBE164C1AC00025EDEB /* AkimboUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewController.h; sourceTree = "<group>"; };
+		E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewController.m; sourceTree = "<group>"; };
+		E4EABFC0164C1AC00025EDEB /* AkimboUITableViewControllerSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewControllerSection.h; sourceTree = "<group>"; };
+		E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewControllerSection.m; sourceTree = "<group>"; };
+		E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboObservable.m; sourceTree = "<group>"; };
+		E4EABFC8164C1BC80025EDEB /* AkimboWeakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboWeakItem.h; sourceTree = "<group>"; };
+		E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboWeakItem.m; sourceTree = "<group>"; };
+		E4EABFCC164C1BD40025EDEB /* NSMutableArray+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Akimbo.h"; sourceTree = "<group>"; };
+		E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Akimbo.m"; sourceTree = "<group>"; };
+		E4EABFCE164C1BD40025EDEB /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
+		E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
+		E4EABFD5164C1C390025EDEB /* NSString+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Akimbo.h"; sourceTree = "<group>"; };
+		E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Akimbo.m"; sourceTree = "<group>"; };
+		E4EABFD8164C1CAE0025EDEB /* AkimboObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboObservable.h; sourceTree = "<group>"; };
+		E4EABFDA164C1D670025EDEB /* AkimboDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDataStore.h; sourceTree = "<group>"; };
+		E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDataStore.m; sourceTree = "<group>"; };
+		E4EABFDE164C1E000025EDEB /* AkimboUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUtils.h; sourceTree = "<group>"; };
+		E4EABFDF164C1E000025EDEB /* AkimboUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUtils.m; sourceTree = "<group>"; };
+		E4EABFE4164C23310025EDEB /* ExampleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTable.h; path = table/ExampleTable.h; sourceTree = "<group>"; };
+		E4EABFE5164C23310025EDEB /* ExampleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTable.m; path = table/ExampleTable.m; sourceTree = "<group>"; };
+		E4EABFE8164C23C10025EDEB /* Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akimbo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EABF33164C17BB0025EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF3A164C17BB0025EDEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF43164C17BB0025EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF49164C17BB0025EDEB /* SenTestingKit.framework in Frameworks */,
+				E4EABF4B164C17BB0025EDEB /* UIKit.framework in Frameworks */,
+				E4EABF4C164C17BB0025EDEB /* Foundation.framework in Frameworks */,
+				E4EABF4F164C17BB0025EDEB /* libakimbo-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF62164C18010025EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABFE3164C22890025EDEB /* libakimbo-ios.a in Frameworks */,
+				E4EABF67164C18010025EDEB /* UIKit.framework in Frameworks */,
+				E4EABF68164C18010025EDEB /* Foundation.framework in Frameworks */,
+				E4EABF6A164C18010025EDEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF7E164C18020025EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF83164C18020025EDEB /* SenTestingKit.framework in Frameworks */,
+				E4EABF84164C18020025EDEB /* UIKit.framework in Frameworks */,
+				E4EABF85164C18020025EDEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4EABF2B164C17BB0025EDEB = {
+			isa = PBXGroup;
+			children = (
+				E4EABF3B164C17BB0025EDEB /* akimbo-ios */,
+				E4EABF50164C17BB0025EDEB /* akimbo-iosTests */,
+				E4EABF6B164C18010025EDEB /* examples */,
+				E4EABF88164C18020025EDEB /* examplesTests */,
+				E4EABF38164C17BB0025EDEB /* Frameworks */,
+				E4EABF37164C17BB0025EDEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EABF37164C17BB0025EDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */,
+				E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */,
+				E4EABF65164C18010025EDEB /* examples.app */,
+				E4EABF82164C18020025EDEB /* examplesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EABF38164C17BB0025EDEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF39164C17BB0025EDEB /* Foundation.framework */,
+				E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */,
+				E4EABF4A164C17BB0025EDEB /* UIKit.framework */,
+				E4EABF69164C18010025EDEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4EABF3B164C17BB0025EDEB /* akimbo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFAD164C19E00025EDEB /* src */,
+				E4EABF3C164C17BB0025EDEB /* Supporting Files */,
+			);
+			path = "akimbo-ios";
+			sourceTree = "<group>";
+		};
+		E4EABF3C164C17BB0025EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF3D164C17BB0025EDEB /* akimbo-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EABF50164C17BB0025EDEB /* akimbo-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF56164C17BB0025EDEB /* akimbo_iosTests.h */,
+				E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */,
+				E4EABF51164C17BB0025EDEB /* Supporting Files */,
+			);
+			path = "akimbo-iosTests";
+			sourceTree = "<group>";
+		};
+		E4EABF51164C17BB0025EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF52164C17BB0025EDEB /* akimbo-iosTests-Info.plist */,
+				E4EABF53164C17BB0025EDEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EABF6B164C18010025EDEB /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF74164C18010025EDEB /* AppDelegate.h */,
+				E4EABF75164C18010025EDEB /* AppDelegate.m */,
+				E4EABF6C164C18010025EDEB /* Supporting Files */,
+				E4EABFE7164C23370025EDEB /* table */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		E4EABF6C164C18010025EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF6D164C18010025EDEB /* examples-Info.plist */,
+				E4EABF6E164C18010025EDEB /* InfoPlist.strings */,
+				E4EABF71164C18010025EDEB /* main.m */,
+				E4EABF73164C18010025EDEB /* examples-Prefix.pch */,
+				E4EABF77164C18010025EDEB /* Default.png */,
+				E4EABF79164C18010025EDEB /* Default@2x.png */,
+				E4EABF7B164C18010025EDEB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EABF88164C18020025EDEB /* examplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF8E164C18020025EDEB /* examplesTests.h */,
+				E4EABF8F164C18020025EDEB /* examplesTests.m */,
+				E4EABF89164C18020025EDEB /* Supporting Files */,
+			);
+			path = examplesTests;
+			sourceTree = "<group>";
+		};
+		E4EABF89164C18020025EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABF8A164C18020025EDEB /* examplesTests-Info.plist */,
+				E4EABF8B164C18020025EDEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EABFAD164C19E00025EDEB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFE8164C23C10025EDEB /* Akimbo.h */,
+				E4EABFAE164C19E00025EDEB /* categories */,
+				E4EABFC5164C1BC80025EDEB /* observable */,
+				E4EABFD9164C1D670025EDEB /* store */,
+				E4EABFBB164C1AC00025EDEB /* table */,
+				E4EABFDD164C1E000025EDEB /* utils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E4EABFAE164C19E00025EDEB /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFCC164C1BD40025EDEB /* NSMutableArray+Akimbo.h */,
+				E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */,
+				E4EABFAF164C19E00025EDEB /* NSMutableArray+Shuffling.h */,
+				E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */,
+				E4EABFCE164C1BD40025EDEB /* NSMutableArray+WeakReferences.h */,
+				E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */,
+				E4EABFD5164C1C390025EDEB /* NSString+Akimbo.h */,
+				E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */,
+				E4EABFB1164C19E00025EDEB /* NSString+Validation.h */,
+				E4EABFB2164C19E00025EDEB /* NSString+Validation.m */,
+				E4EABFB3164C19E00025EDEB /* UIColor+Hex.h */,
+				E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */,
+				E4EABFB5164C19E00025EDEB /* UIImage+Drawing.h */,
+				E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		E4EABFBB164C1AC00025EDEB /* table */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFBC164C1AC00025EDEB /* AkimboUITableViewCell.h */,
+				E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */,
+				E4EABFBE164C1AC00025EDEB /* AkimboUITableViewController.h */,
+				E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */,
+				E4EABFC0164C1AC00025EDEB /* AkimboUITableViewControllerSection.h */,
+				E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		E4EABFC5164C1BC80025EDEB /* observable */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFD8164C1CAE0025EDEB /* AkimboObservable.h */,
+				E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */,
+				E4EABFC8164C1BC80025EDEB /* AkimboWeakItem.h */,
+				E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */,
+			);
+			path = observable;
+			sourceTree = "<group>";
+		};
+		E4EABFD9164C1D670025EDEB /* store */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFDA164C1D670025EDEB /* AkimboDataStore.h */,
+				E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		E4EABFDD164C1E000025EDEB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFDE164C1E000025EDEB /* AkimboUtils.h */,
+				E4EABFDF164C1E000025EDEB /* AkimboUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E4EABFE7164C23370025EDEB /* table */ = {
+			isa = PBXGroup;
+			children = (
+				E4EABFE4164C23310025EDEB /* ExampleTable.h */,
+				E4EABFE5164C23310025EDEB /* ExampleTable.m */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EABF35164C17BB0025EDEB /* akimbo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EABF5B164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-ios" */;
+			buildPhases = (
+				E4EABF32164C17BB0025EDEB /* Sources */,
+				E4EABF33164C17BB0025EDEB /* Frameworks */,
+				E4EABF34164C17BB0025EDEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "akimbo-ios";
+			productName = "akimbo-ios";
+			productReference = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4EABF46164C17BB0025EDEB /* akimbo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EABF5E164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-iosTests" */;
+			buildPhases = (
+				E4EABF42164C17BB0025EDEB /* Sources */,
+				E4EABF43164C17BB0025EDEB /* Frameworks */,
+				E4EABF44164C17BB0025EDEB /* Resources */,
+				E4EABF45164C17BB0025EDEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EABF4E164C17BB0025EDEB /* PBXTargetDependency */,
+			);
+			name = "akimbo-iosTests";
+			productName = "akimbo-iosTests";
+			productReference = E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E4EABF64164C18010025EDEB /* examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EABF91164C18020025EDEB /* Build configuration list for PBXNativeTarget "examples" */;
+			buildPhases = (
+				E4EABF61164C18010025EDEB /* Sources */,
+				E4EABF62164C18010025EDEB /* Frameworks */,
+				E4EABF63164C18010025EDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EABFE2164C22820025EDEB /* PBXTargetDependency */,
+			);
+			name = examples;
+			productName = examples;
+			productReference = E4EABF65164C18010025EDEB /* examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EABF81164C18020025EDEB /* examplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EABF94164C18020025EDEB /* Build configuration list for PBXNativeTarget "examplesTests" */;
+			buildPhases = (
+				E4EABF7D164C18020025EDEB /* Sources */,
+				E4EABF7E164C18020025EDEB /* Frameworks */,
+				E4EABF7F164C18020025EDEB /* Resources */,
+				E4EABF80164C18020025EDEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EABF87164C18020025EDEB /* PBXTargetDependency */,
+			);
+			name = examplesTests;
+			productName = examplesTests;
+			productReference = E4EABF82164C18020025EDEB /* examplesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EABF2D164C17BB0025EDEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Akimbo;
+			};
+			buildConfigurationList = E4EABF30164C17BB0025EDEB /* Build configuration list for PBXProject "akimbo-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4EABF2B164C17BB0025EDEB;
+			productRefGroup = E4EABF37164C17BB0025EDEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EABF35164C17BB0025EDEB /* akimbo-ios */,
+				E4EABF46164C17BB0025EDEB /* akimbo-iosTests */,
+				E4EABF64164C18010025EDEB /* examples */,
+				E4EABF81164C18020025EDEB /* examplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EABF44164C17BB0025EDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF55164C17BB0025EDEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF63164C18010025EDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF70164C18010025EDEB /* InfoPlist.strings in Resources */,
+				E4EABF78164C18010025EDEB /* Default.png in Resources */,
+				E4EABF7A164C18010025EDEB /* Default@2x.png in Resources */,
+				E4EABF7C164C18010025EDEB /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF7F164C18020025EDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF8D164C18020025EDEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4EABF45164C17BB0025EDEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		E4EABF80164C18020025EDEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EABF32164C17BB0025EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABFB7164C19E00025EDEB /* NSMutableArray+Shuffling.m in Sources */,
+				E4EABFB8164C19E00025EDEB /* NSString+Validation.m in Sources */,
+				E4EABFB9164C19E00025EDEB /* UIColor+Hex.m in Sources */,
+				E4EABFBA164C19E00025EDEB /* UIImage+Drawing.m in Sources */,
+				E4EABFC2164C1AC00025EDEB /* AkimboUITableViewCell.m in Sources */,
+				E4EABFC3164C1AC00025EDEB /* AkimboUITableViewController.m in Sources */,
+				E4EABFC4164C1AC00025EDEB /* AkimboUITableViewControllerSection.m in Sources */,
+				E4EABFCA164C1BC80025EDEB /* AkimboObservable.m in Sources */,
+				E4EABFCB164C1BC80025EDEB /* AkimboWeakItem.m in Sources */,
+				E4EABFD2164C1BD40025EDEB /* NSMutableArray+Akimbo.m in Sources */,
+				E4EABFD3164C1BD40025EDEB /* NSMutableArray+WeakReferences.m in Sources */,
+				E4EABFD7164C1C3B0025EDEB /* NSString+Akimbo.m in Sources */,
+				E4EABFDC164C1D670025EDEB /* AkimboDataStore.m in Sources */,
+				E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF42164C17BB0025EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF58164C17BB0025EDEB /* akimbo_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF61164C18010025EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF72164C18010025EDEB /* main.m in Sources */,
+				E4EABF76164C18010025EDEB /* AppDelegate.m in Sources */,
+				E4EABFE6164C23310025EDEB /* ExampleTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EABF7D164C18020025EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EABF90164C18020025EDEB /* examplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EABF4E164C17BB0025EDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EABF35164C17BB0025EDEB /* akimbo-ios */;
+			targetProxy = E4EABF4D164C17BB0025EDEB /* PBXContainerItemProxy */;
+		};
+		E4EABF87164C18020025EDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EABF64164C18010025EDEB /* examples */;
+			targetProxy = E4EABF86164C18020025EDEB /* PBXContainerItemProxy */;
+		};
+		E4EABFE2164C22820025EDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EABF35164C17BB0025EDEB /* akimbo-ios */;
+			targetProxy = E4EABFE1164C22820025EDEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EABF53164C17BB0025EDEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EABF54164C17BB0025EDEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4EABF6E164C18010025EDEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EABF6F164C18010025EDEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4EABF8B164C18020025EDEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EABF8C164C18020025EDEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EABF59164C17BB0025EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4EABF5A164C17BB0025EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EABF5C164C17BB0025EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/akimbo_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4EABF5D164C17BB0025EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/akimbo_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4EABF5F164C17BB0025EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
+				INFOPLIST_FILE = "akimbo-iosTests/akimbo-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E4EABF60164C17BB0025EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
+				INFOPLIST_FILE = "akimbo-iosTests/akimbo-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		E4EABF92164C18020025EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "examples/examples-Prefix.pch";
+				INFOPLIST_FILE = "examples/examples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4EABF93164C18020025EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "examples/examples-Prefix.pch";
+				INFOPLIST_FILE = "examples/examples-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4EABF95164C18020025EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/examples.app/examples";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "examples/examples-Prefix.pch";
+				INFOPLIST_FILE = "examplesTests/examplesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E4EABF96164C18020025EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/examples.app/examples";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "examples/examples-Prefix.pch";
+				INFOPLIST_FILE = "examplesTests/examplesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EABF30164C17BB0025EDEB /* Build configuration list for PBXProject "akimbo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EABF59164C17BB0025EDEB /* Debug */,
+				E4EABF5A164C17BB0025EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EABF5B164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EABF5C164C17BB0025EDEB /* Debug */,
+				E4EABF5D164C17BB0025EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EABF5E164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EABF5F164C17BB0025EDEB /* Debug */,
+				E4EABF60164C17BB0025EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EABF91164C18020025EDEB /* Build configuration list for PBXNativeTarget "examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EABF92164C18020025EDEB /* Debug */,
+				E4EABF93164C18020025EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EABF94164C18020025EDEB /* Build configuration list for PBXNativeTarget "examplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EABF95164C18020025EDEB /* Debug */,
+				E4EABF96164C18020025EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EABF2D164C17BB0025EDEB /* Project object */;
+}
