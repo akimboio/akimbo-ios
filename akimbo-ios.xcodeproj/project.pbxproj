@@ -49,6 +49,7 @@
 		E4EAC00E164C4D240025EDEB /* ExampleMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC00D164C4D240025EDEB /* ExampleMainNavigationViewController.m */; };
 		E4EAC011164C4D830025EDEB /* ExampleMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */; };
 		E4EAC014164C53FC0025EDEB /* ExampleTableMultipleSections.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */; };
+		E4EAC067164D90820025EDEB /* AkimboDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC066164D90820025EDEB /* AkimboDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,8 @@
 		E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMainTableViewController.m; sourceTree = "<group>"; };
 		E4EAC012164C53FB0025EDEB /* ExampleTableMultipleSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableMultipleSections.h; path = table/ExampleTableMultipleSections.h; sourceTree = "<group>"; };
 		E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableMultipleSections.m; path = table/ExampleTableMultipleSections.m; sourceTree = "<group>"; };
+		E4EAC065164D90820025EDEB /* AkimboDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkimboDraw.h; path = draw/AkimboDraw.h; sourceTree = "<group>"; };
+		E4EAC066164D90820025EDEB /* AkimboDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AkimboDraw.m; path = draw/AkimboDraw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +324,7 @@
 			children = (
 				E4EABFE8164C23C10025EDEB /* Akimbo.h */,
 				E4EABFAE164C19E00025EDEB /* categories */,
+				E4EAC069164D90880025EDEB /* draw */,
 				E4EABFC5164C1BC80025EDEB /* observable */,
 				E4EABFD9164C1D670025EDEB /* store */,
 				E4EABFBB164C1AC00025EDEB /* table */,
@@ -416,6 +420,15 @@
 				E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		E4EAC069164D90880025EDEB /* draw */ = {
+			isa = PBXGroup;
+			children = (
+				E4EAC065164D90820025EDEB /* AkimboDraw.h */,
+				E4EAC066164D90820025EDEB /* AkimboDraw.m */,
+			);
+			name = draw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -601,6 +614,7 @@
 				E4EABFD7164C1C3B0025EDEB /* NSString+Akimbo.m in Sources */,
 				E4EABFDC164C1D670025EDEB /* AkimboDataStore.m in Sources */,
 				E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */,
+				E4EAC067164D90820025EDEB /* AkimboDraw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
