@@ -6,8 +6,17 @@
 //  Copyright (c) 2012 Akimbo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@class AkimboDataStore;
 
-@interface AkimboDataStoreDelegate : NSObject
+@protocol AkimboDataStoreDelegate <NSObject>
+
+@optional
+- (void)dataStore:(AkimboDataStore *)store change:(NSArray *)records;
+- (void)dataStore:(AkimboDataStore *)store changeBuffered:(NSArray *)records;
+- (void)dataStore:(AkimboDataStore *)store add:(NSArray *)records;
+- (void)dataStore:(AkimboDataStore *)store remove:(id)record;
+- (void)dataStore:(AkimboDataStore *)store removeAll:(NSArray *)records;
+- (void)dataStoreWillLoad:(AkimboDataStore *)store;
+- (void)dataStore:(AkimboDataStore *)store load:(NSArray *)records;
 
 @end

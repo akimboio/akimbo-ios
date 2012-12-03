@@ -34,37 +34,42 @@
 		F57379D8166D464000906AC7 /* libAkimbo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F57379C4166D464000906AC7 /* libAkimbo.a */; };
 		F5737A22166D470900906AC7 /* libAkimbo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F57379C4166D464000906AC7 /* libAkimbo.a */; };
 		F5737A4C166D47E600906AC7 /* Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A25166D47E600906AC7 /* Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A4D166D47E600906AC7 /* NSMutableArray+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A4E166D47E600906AC7 /* NSMutableArray+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */; };
-		F5737A4F166D47E600906AC7 /* NSMutableArray+Shuffling.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A50166D47E700906AC7 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */; };
-		F5737A51166D47E700906AC7 /* NSMutableArray+WeakReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A52166D47E700906AC7 /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */; };
-		F5737A53166D47E700906AC7 /* NSString+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A54166D47E700906AC7 /* NSString+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */; };
-		F5737A55166D47E700906AC7 /* NSString+Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2F166D47E600906AC7 /* NSString+Validation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A56166D47E700906AC7 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A30166D47E600906AC7 /* NSString+Validation.m */; };
-		F5737A57166D47E700906AC7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A31166D47E600906AC7 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A58166D47E700906AC7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A32166D47E600906AC7 /* UIColor+Hex.m */; };
-		F5737A59166D47E700906AC7 /* UIImage+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A33166D47E600906AC7 /* UIImage+Drawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A5A166D47E700906AC7 /* UIImage+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A34166D47E600906AC7 /* UIImage+Drawing.m */; };
 		F5737A5B166D47E700906AC7 /* AkimboDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A36166D47E600906AC7 /* AkimboDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5737A5C166D47E700906AC7 /* AkimboDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A37166D47E600906AC7 /* AkimboDraw.m */; };
-		F5737A5D166D47E700906AC7 /* AkimboObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A39166D47E600906AC7 /* AkimboObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A5E166D47E700906AC7 /* AkimboObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3A166D47E600906AC7 /* AkimboObservable.m */; };
-		F5737A5F166D47E700906AC7 /* AkimboWeakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A60166D47E700906AC7 /* AkimboWeakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */; };
-		F5737A61166D47E700906AC7 /* AkimboDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A3E166D47E600906AC7 /* AkimboDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A62166D47E700906AC7 /* AkimboDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3F166D47E600906AC7 /* AkimboDataStore.m */; };
 		F5737A63166D47E700906AC7 /* Akimbo-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A64166D47E700906AC7 /* AkimboUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A65166D47E700906AC7 /* AkimboUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */; };
-		F5737A66166D47E700906AC7 /* AkimboUITableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A67166D47E700906AC7 /* AkimboUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */; };
-		F5737A68166D47E700906AC7 /* AkimboUITableViewControllerSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5737A69166D47E700906AC7 /* AkimboUITableViewControllerSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */; };
 		F5737A6A166D47E700906AC7 /* AkimboUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A4A166D47E600906AC7 /* AkimboUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5737A6B166D47E700906AC7 /* AkimboUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A4B166D47E600906AC7 /* AkimboUtils.m */; };
+		F5737A6F166D4AEA00906AC7 /* AkimboDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A6D166D4AEA00906AC7 /* AkimboDataStore.h */; };
+		F5737A70166D4AEA00906AC7 /* AkimboDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A6E166D4AEA00906AC7 /* AkimboDataStore.m */; };
+		F5737A80166D4C7B00906AC7 /* NSMutableArray+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A72166D4C7B00906AC7 /* NSMutableArray+Akimbo.h */; };
+		F5737A81166D4C7B00906AC7 /* NSMutableArray+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A73166D4C7B00906AC7 /* NSMutableArray+Akimbo.m */; };
+		F5737A82166D4C7B00906AC7 /* NSMutableArray+Shuffling.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A74166D4C7B00906AC7 /* NSMutableArray+Shuffling.h */; };
+		F5737A83166D4C7B00906AC7 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A75166D4C7B00906AC7 /* NSMutableArray+Shuffling.m */; };
+		F5737A84166D4C7B00906AC7 /* NSMutableArray+WeakReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A76166D4C7B00906AC7 /* NSMutableArray+WeakReferences.h */; };
+		F5737A85166D4C7B00906AC7 /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A77166D4C7B00906AC7 /* NSMutableArray+WeakReferences.m */; };
+		F5737A86166D4C7B00906AC7 /* NSString+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A78166D4C7B00906AC7 /* NSString+Akimbo.h */; };
+		F5737A87166D4C7B00906AC7 /* NSString+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A79166D4C7B00906AC7 /* NSString+Akimbo.m */; };
+		F5737A88166D4C7B00906AC7 /* NSString+Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A7A166D4C7B00906AC7 /* NSString+Validation.h */; };
+		F5737A89166D4C7B00906AC7 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A7B166D4C7B00906AC7 /* NSString+Validation.m */; };
+		F5737A8A166D4C7B00906AC7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A7C166D4C7B00906AC7 /* UIColor+Hex.h */; };
+		F5737A8B166D4C7B00906AC7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A7D166D4C7B00906AC7 /* UIColor+Hex.m */; };
+		F5737A8C166D4C7B00906AC7 /* UIImage+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A7E166D4C7B00906AC7 /* UIImage+Drawing.h */; };
+		F5737A8D166D4C7B00906AC7 /* UIImage+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A7F166D4C7B00906AC7 /* UIImage+Drawing.m */; };
+		F5737A8F166D4CC900906AC7 /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A8E166D4CC900906AC7 /* Categories.h */; };
+		F5737A91166D4D7D00906AC7 /* Observable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A90166D4D7D00906AC7 /* Observable.h */; };
+		F5737A93166D4DA200906AC7 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A92166D4DA200906AC7 /* Data.h */; };
+		F5737A95166D4E3000906AC7 /* Table.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A94166D4E2F00906AC7 /* Table.h */; };
+		F5737A9D166D4E6300906AC7 /* AkimboUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A97166D4E6300906AC7 /* AkimboUITableViewCell.h */; };
+		F5737A9E166D4E6300906AC7 /* AkimboUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A98166D4E6300906AC7 /* AkimboUITableViewCell.m */; };
+		F5737A9F166D4E6300906AC7 /* AkimboUITableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A99166D4E6300906AC7 /* AkimboUITableViewController.h */; };
+		F5737AA0166D4E6300906AC7 /* AkimboUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A9A166D4E6300906AC7 /* AkimboUITableViewController.m */; };
+		F5737AA1166D4E6300906AC7 /* AkimboUITableViewControllerSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A9B166D4E6300906AC7 /* AkimboUITableViewControllerSection.h */; };
+		F5737AA2166D4E6300906AC7 /* AkimboUITableViewControllerSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A9C166D4E6300906AC7 /* AkimboUITableViewControllerSection.m */; };
+		F5737AA8166D4EAB00906AC7 /* AkimboObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737AA4166D4EAB00906AC7 /* AkimboObservable.h */; };
+		F5737AA9166D4EAB00906AC7 /* AkimboObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737AA5166D4EAB00906AC7 /* AkimboObservable.m */; };
+		F5737AAA166D4EAB00906AC7 /* AkimboWeakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737AA6166D4EAB00906AC7 /* AkimboWeakItem.h */; };
+		F5737AAB166D4EAB00906AC7 /* AkimboWeakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737AA7166D4EAB00906AC7 /* AkimboWeakItem.m */; };
+		F5737AAE166D511100906AC7 /* AkimboDataStoreDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737AAC166D511100906AC7 /* AkimboDataStoreDelegate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,37 +131,42 @@
 		F57379C4166D464000906AC7 /* libAkimbo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAkimbo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57379D2166D464000906AC7 /* AkimboTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkimboTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5737A25166D47E600906AC7 /* Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akimbo.h; sourceTree = "<group>"; };
-		F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Akimbo.h"; sourceTree = "<group>"; };
-		F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Akimbo.m"; sourceTree = "<group>"; };
-		F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
-		F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
-		F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
-		F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
-		F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Akimbo.h"; sourceTree = "<group>"; };
-		F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Akimbo.m"; sourceTree = "<group>"; };
-		F5737A2F166D47E600906AC7 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
-		F5737A30166D47E600906AC7 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
-		F5737A31166D47E600906AC7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		F5737A32166D47E600906AC7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		F5737A33166D47E600906AC7 /* UIImage+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawing.h"; sourceTree = "<group>"; };
-		F5737A34166D47E600906AC7 /* UIImage+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawing.m"; sourceTree = "<group>"; };
 		F5737A36166D47E600906AC7 /* AkimboDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDraw.h; sourceTree = "<group>"; };
 		F5737A37166D47E600906AC7 /* AkimboDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDraw.m; sourceTree = "<group>"; };
-		F5737A39166D47E600906AC7 /* AkimboObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboObservable.h; sourceTree = "<group>"; };
-		F5737A3A166D47E600906AC7 /* AkimboObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboObservable.m; sourceTree = "<group>"; };
-		F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboWeakItem.h; sourceTree = "<group>"; };
-		F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboWeakItem.m; sourceTree = "<group>"; };
-		F5737A3E166D47E600906AC7 /* AkimboDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDataStore.h; sourceTree = "<group>"; };
-		F5737A3F166D47E600906AC7 /* AkimboDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDataStore.m; sourceTree = "<group>"; };
 		F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Akimbo-Prefix.pch"; sourceTree = "<group>"; };
-		F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewCell.h; sourceTree = "<group>"; };
-		F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewCell.m; sourceTree = "<group>"; };
-		F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewController.h; sourceTree = "<group>"; };
-		F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewController.m; sourceTree = "<group>"; };
-		F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewControllerSection.h; sourceTree = "<group>"; };
-		F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewControllerSection.m; sourceTree = "<group>"; };
 		F5737A4A166D47E600906AC7 /* AkimboUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUtils.h; sourceTree = "<group>"; };
 		F5737A4B166D47E600906AC7 /* AkimboUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUtils.m; sourceTree = "<group>"; };
+		F5737A6D166D4AEA00906AC7 /* AkimboDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkimboDataStore.h; path = Data/AkimboDataStore.h; sourceTree = "<group>"; };
+		F5737A6E166D4AEA00906AC7 /* AkimboDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AkimboDataStore.m; path = Data/AkimboDataStore.m; sourceTree = "<group>"; };
+		F5737A72166D4C7B00906AC7 /* NSMutableArray+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Akimbo.h"; sourceTree = "<group>"; };
+		F5737A73166D4C7B00906AC7 /* NSMutableArray+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Akimbo.m"; sourceTree = "<group>"; };
+		F5737A74166D4C7B00906AC7 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		F5737A75166D4C7B00906AC7 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		F5737A76166D4C7B00906AC7 /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
+		F5737A77166D4C7B00906AC7 /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
+		F5737A78166D4C7B00906AC7 /* NSString+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Akimbo.h"; sourceTree = "<group>"; };
+		F5737A79166D4C7B00906AC7 /* NSString+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Akimbo.m"; sourceTree = "<group>"; };
+		F5737A7A166D4C7B00906AC7 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		F5737A7B166D4C7B00906AC7 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		F5737A7C166D4C7B00906AC7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F5737A7D166D4C7B00906AC7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F5737A7E166D4C7B00906AC7 /* UIImage+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawing.h"; sourceTree = "<group>"; };
+		F5737A7F166D4C7B00906AC7 /* UIImage+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawing.m"; sourceTree = "<group>"; };
+		F5737A8E166D4CC900906AC7 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		F5737A90166D4D7D00906AC7 /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		F5737A92166D4DA200906AC7 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		F5737A94166D4E2F00906AC7 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		F5737A97166D4E6300906AC7 /* AkimboUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewCell.h; sourceTree = "<group>"; };
+		F5737A98166D4E6300906AC7 /* AkimboUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewCell.m; sourceTree = "<group>"; };
+		F5737A99166D4E6300906AC7 /* AkimboUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewController.h; sourceTree = "<group>"; };
+		F5737A9A166D4E6300906AC7 /* AkimboUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewController.m; sourceTree = "<group>"; };
+		F5737A9B166D4E6300906AC7 /* AkimboUITableViewControllerSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewControllerSection.h; sourceTree = "<group>"; };
+		F5737A9C166D4E6300906AC7 /* AkimboUITableViewControllerSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewControllerSection.m; sourceTree = "<group>"; };
+		F5737AA4166D4EAB00906AC7 /* AkimboObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboObservable.h; sourceTree = "<group>"; };
+		F5737AA5166D4EAB00906AC7 /* AkimboObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboObservable.m; sourceTree = "<group>"; };
+		F5737AA6166D4EAB00906AC7 /* AkimboWeakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboWeakItem.h; sourceTree = "<group>"; };
+		F5737AA7166D4EAB00906AC7 /* AkimboWeakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboWeakItem.m; sourceTree = "<group>"; };
+		F5737AAC166D511100906AC7 /* AkimboDataStoreDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkimboDataStoreDelegate.h; path = Data/AkimboDataStoreDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,36 +329,19 @@
 			isa = PBXGroup;
 			children = (
 				F5737A25166D47E600906AC7 /* Akimbo.h */,
-				F5737A26166D47E600906AC7 /* categories */,
+				F5737A8E166D4CC900906AC7 /* Categories.h */,
+				F5737A92166D4DA200906AC7 /* Data.h */,
+				F5737A90166D4D7D00906AC7 /* Observable.h */,
+				F5737A94166D4E2F00906AC7 /* Table.h */,
+				F5737A71166D4C7B00906AC7 /* Categories */,
+				F5737A6C166D4AB300906AC7 /* Data */,
 				F5737A35166D47E600906AC7 /* draw */,
-				F5737A38166D47E600906AC7 /* observable */,
-				F5737A3D166D47E600906AC7 /* store */,
+				F5737AA3166D4EAB00906AC7 /* Observable */,
 				F5737A40166D47E600906AC7 /* Support */,
-				F5737A42166D47E600906AC7 /* table */,
+				F5737A96166D4E6300906AC7 /* Table */,
 				F5737A49166D47E600906AC7 /* utils */,
 			);
 			path = Code;
-			sourceTree = "<group>";
-		};
-		F5737A26166D47E600906AC7 /* categories */ = {
-			isa = PBXGroup;
-			children = (
-				F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */,
-				F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */,
-				F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */,
-				F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */,
-				F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */,
-				F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */,
-				F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */,
-				F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */,
-				F5737A2F166D47E600906AC7 /* NSString+Validation.h */,
-				F5737A30166D47E600906AC7 /* NSString+Validation.m */,
-				F5737A31166D47E600906AC7 /* UIColor+Hex.h */,
-				F5737A32166D47E600906AC7 /* UIColor+Hex.m */,
-				F5737A33166D47E600906AC7 /* UIImage+Drawing.h */,
-				F5737A34166D47E600906AC7 /* UIImage+Drawing.m */,
-			);
-			path = categories;
 			sourceTree = "<group>";
 		};
 		F5737A35166D47E600906AC7 /* draw */ = {
@@ -360,45 +353,12 @@
 			path = draw;
 			sourceTree = "<group>";
 		};
-		F5737A38166D47E600906AC7 /* observable */ = {
-			isa = PBXGroup;
-			children = (
-				F5737A39166D47E600906AC7 /* AkimboObservable.h */,
-				F5737A3A166D47E600906AC7 /* AkimboObservable.m */,
-				F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */,
-				F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */,
-			);
-			path = observable;
-			sourceTree = "<group>";
-		};
-		F5737A3D166D47E600906AC7 /* store */ = {
-			isa = PBXGroup;
-			children = (
-				F5737A3E166D47E600906AC7 /* AkimboDataStore.h */,
-				F5737A3F166D47E600906AC7 /* AkimboDataStore.m */,
-			);
-			path = store;
-			sourceTree = "<group>";
-		};
 		F5737A40166D47E600906AC7 /* Support */ = {
 			isa = PBXGroup;
 			children = (
 				F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		F5737A42166D47E600906AC7 /* table */ = {
-			isa = PBXGroup;
-			children = (
-				F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */,
-				F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */,
-				F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */,
-				F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */,
-				F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */,
-				F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */,
-			);
-			path = table;
 			sourceTree = "<group>";
 		};
 		F5737A49166D47E600906AC7 /* utils */ = {
@@ -410,6 +370,61 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		F5737A6C166D4AB300906AC7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A6D166D4AEA00906AC7 /* AkimboDataStore.h */,
+				F5737A6E166D4AEA00906AC7 /* AkimboDataStore.m */,
+				F5737AAC166D511100906AC7 /* AkimboDataStoreDelegate.h */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		F5737A71166D4C7B00906AC7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A72166D4C7B00906AC7 /* NSMutableArray+Akimbo.h */,
+				F5737A73166D4C7B00906AC7 /* NSMutableArray+Akimbo.m */,
+				F5737A74166D4C7B00906AC7 /* NSMutableArray+Shuffling.h */,
+				F5737A75166D4C7B00906AC7 /* NSMutableArray+Shuffling.m */,
+				F5737A76166D4C7B00906AC7 /* NSMutableArray+WeakReferences.h */,
+				F5737A77166D4C7B00906AC7 /* NSMutableArray+WeakReferences.m */,
+				F5737A78166D4C7B00906AC7 /* NSString+Akimbo.h */,
+				F5737A79166D4C7B00906AC7 /* NSString+Akimbo.m */,
+				F5737A7A166D4C7B00906AC7 /* NSString+Validation.h */,
+				F5737A7B166D4C7B00906AC7 /* NSString+Validation.m */,
+				F5737A7C166D4C7B00906AC7 /* UIColor+Hex.h */,
+				F5737A7D166D4C7B00906AC7 /* UIColor+Hex.m */,
+				F5737A7E166D4C7B00906AC7 /* UIImage+Drawing.h */,
+				F5737A7F166D4C7B00906AC7 /* UIImage+Drawing.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F5737A96166D4E6300906AC7 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A97166D4E6300906AC7 /* AkimboUITableViewCell.h */,
+				F5737A98166D4E6300906AC7 /* AkimboUITableViewCell.m */,
+				F5737A99166D4E6300906AC7 /* AkimboUITableViewController.h */,
+				F5737A9A166D4E6300906AC7 /* AkimboUITableViewController.m */,
+				F5737A9B166D4E6300906AC7 /* AkimboUITableViewControllerSection.h */,
+				F5737A9C166D4E6300906AC7 /* AkimboUITableViewControllerSection.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F5737AA3166D4EAB00906AC7 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				F5737AA4166D4EAB00906AC7 /* AkimboObservable.h */,
+				F5737AA5166D4EAB00906AC7 /* AkimboObservable.m */,
+				F5737AA6166D4EAB00906AC7 /* AkimboWeakItem.h */,
+				F5737AA7166D4EAB00906AC7 /* AkimboWeakItem.m */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -418,22 +433,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5737A4C166D47E600906AC7 /* Akimbo.h in Headers */,
-				F5737A4D166D47E600906AC7 /* NSMutableArray+Akimbo.h in Headers */,
-				F5737A4F166D47E600906AC7 /* NSMutableArray+Shuffling.h in Headers */,
-				F5737A51166D47E700906AC7 /* NSMutableArray+WeakReferences.h in Headers */,
-				F5737A53166D47E700906AC7 /* NSString+Akimbo.h in Headers */,
-				F5737A55166D47E700906AC7 /* NSString+Validation.h in Headers */,
-				F5737A57166D47E700906AC7 /* UIColor+Hex.h in Headers */,
-				F5737A59166D47E700906AC7 /* UIImage+Drawing.h in Headers */,
 				F5737A5B166D47E700906AC7 /* AkimboDraw.h in Headers */,
-				F5737A5D166D47E700906AC7 /* AkimboObservable.h in Headers */,
-				F5737A5F166D47E700906AC7 /* AkimboWeakItem.h in Headers */,
-				F5737A61166D47E700906AC7 /* AkimboDataStore.h in Headers */,
 				F5737A63166D47E700906AC7 /* Akimbo-Prefix.pch in Headers */,
-				F5737A64166D47E700906AC7 /* AkimboUITableViewCell.h in Headers */,
-				F5737A66166D47E700906AC7 /* AkimboUITableViewController.h in Headers */,
-				F5737A68166D47E700906AC7 /* AkimboUITableViewControllerSection.h in Headers */,
 				F5737A6A166D47E700906AC7 /* AkimboUtils.h in Headers */,
+				F5737A6F166D4AEA00906AC7 /* AkimboDataStore.h in Headers */,
+				F5737A80166D4C7B00906AC7 /* NSMutableArray+Akimbo.h in Headers */,
+				F5737A82166D4C7B00906AC7 /* NSMutableArray+Shuffling.h in Headers */,
+				F5737A84166D4C7B00906AC7 /* NSMutableArray+WeakReferences.h in Headers */,
+				F5737A86166D4C7B00906AC7 /* NSString+Akimbo.h in Headers */,
+				F5737A88166D4C7B00906AC7 /* NSString+Validation.h in Headers */,
+				F5737A8A166D4C7B00906AC7 /* UIColor+Hex.h in Headers */,
+				F5737A8C166D4C7B00906AC7 /* UIImage+Drawing.h in Headers */,
+				F5737A8F166D4CC900906AC7 /* Categories.h in Headers */,
+				F5737A91166D4D7D00906AC7 /* Observable.h in Headers */,
+				F5737A93166D4DA200906AC7 /* Data.h in Headers */,
+				F5737A95166D4E3000906AC7 /* Table.h in Headers */,
+				F5737A9D166D4E6300906AC7 /* AkimboUITableViewCell.h in Headers */,
+				F5737A9F166D4E6300906AC7 /* AkimboUITableViewController.h in Headers */,
+				F5737AA1166D4E6300906AC7 /* AkimboUITableViewControllerSection.h in Headers */,
+				F5737AA8166D4EAB00906AC7 /* AkimboObservable.h in Headers */,
+				F5737AAA166D4EAB00906AC7 /* AkimboWeakItem.h in Headers */,
+				F5737AAE166D511100906AC7 /* AkimboDataStoreDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,21 +648,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5737A4E166D47E600906AC7 /* NSMutableArray+Akimbo.m in Sources */,
-				F5737A50166D47E700906AC7 /* NSMutableArray+Shuffling.m in Sources */,
-				F5737A52166D47E700906AC7 /* NSMutableArray+WeakReferences.m in Sources */,
-				F5737A54166D47E700906AC7 /* NSString+Akimbo.m in Sources */,
-				F5737A56166D47E700906AC7 /* NSString+Validation.m in Sources */,
-				F5737A58166D47E700906AC7 /* UIColor+Hex.m in Sources */,
-				F5737A5A166D47E700906AC7 /* UIImage+Drawing.m in Sources */,
 				F5737A5C166D47E700906AC7 /* AkimboDraw.m in Sources */,
-				F5737A5E166D47E700906AC7 /* AkimboObservable.m in Sources */,
-				F5737A60166D47E700906AC7 /* AkimboWeakItem.m in Sources */,
-				F5737A62166D47E700906AC7 /* AkimboDataStore.m in Sources */,
-				F5737A65166D47E700906AC7 /* AkimboUITableViewCell.m in Sources */,
-				F5737A67166D47E700906AC7 /* AkimboUITableViewController.m in Sources */,
-				F5737A69166D47E700906AC7 /* AkimboUITableViewControllerSection.m in Sources */,
 				F5737A6B166D47E700906AC7 /* AkimboUtils.m in Sources */,
+				F5737A70166D4AEA00906AC7 /* AkimboDataStore.m in Sources */,
+				F5737A81166D4C7B00906AC7 /* NSMutableArray+Akimbo.m in Sources */,
+				F5737A83166D4C7B00906AC7 /* NSMutableArray+Shuffling.m in Sources */,
+				F5737A85166D4C7B00906AC7 /* NSMutableArray+WeakReferences.m in Sources */,
+				F5737A87166D4C7B00906AC7 /* NSString+Akimbo.m in Sources */,
+				F5737A89166D4C7B00906AC7 /* NSString+Validation.m in Sources */,
+				F5737A8B166D4C7B00906AC7 /* UIColor+Hex.m in Sources */,
+				F5737A8D166D4C7B00906AC7 /* UIImage+Drawing.m in Sources */,
+				F5737A9E166D4E6300906AC7 /* AkimboUITableViewCell.m in Sources */,
+				F5737AA0166D4E6300906AC7 /* AkimboUITableViewController.m in Sources */,
+				F5737AA2166D4E6300906AC7 /* AkimboUITableViewControllerSection.m in Sources */,
+				F5737AA9166D4EAB00906AC7 /* AkimboObservable.m in Sources */,
+				F5737AAB166D4EAB00906AC7 /* AkimboWeakItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

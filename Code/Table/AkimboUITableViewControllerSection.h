@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AkimboObservable.h"
 #import "AkimboDataStore.h"
+#import "AkimboDataStoreDelegate.h"
 
 @class AkimboUITableViewController;
 @class AkimboUITableViewControllerSection;
@@ -30,7 +31,7 @@
 - (CGFloat)tableSection:(AkimboUITableViewControllerSection *)section heightForCell:(UITableViewCell *)cell withRecord:(id)record;
 @end
 
-@interface AkimboUITableViewControllerSection : AkimboObservable <FPDataStoreDelegate>
+@interface AkimboUITableViewControllerSection : AkimboObservable <AkimboDataStoreDelegate>
 
 @property (nonatomic, weak) AkimboUITableViewController *tableViewController;
 @property (nonatomic) NSString *cellClass;
