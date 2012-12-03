@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Akimbo. All rights reserved.
 //
 
-#import "Akimbo.h"
+#import <Akimbo/Akimbo.h>
 
 enum {
     ExampleTableDataSourceSencha = 0,

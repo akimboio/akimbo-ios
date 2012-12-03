@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4EABF3A164C17BB0025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
-		E4EABF49164C17BB0025EDEB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */; };
-		E4EABF4B164C17BB0025EDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
-		E4EABF4C164C17BB0025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
-		E4EABF4F164C17BB0025EDEB /* libakimbo-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */; };
-		E4EABF55164C17BB0025EDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF53164C17BB0025EDEB /* InfoPlist.strings */; };
-		E4EABF58164C17BB0025EDEB /* akimbo_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */; };
 		E4EABF67164C18010025EDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
 		E4EABF68164C18010025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
 		E4EABF6A164C18010025EDEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF69164C18010025EDEB /* CoreGraphics.framework */; };
@@ -28,38 +21,53 @@
 		E4EABF85164C18020025EDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
 		E4EABF8D164C18020025EDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EABF8B164C18020025EDEB /* InfoPlist.strings */; };
 		E4EABF90164C18020025EDEB /* examplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABF8F164C18020025EDEB /* examplesTests.m */; };
-		E4EABFB7164C19E00025EDEB /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */; };
-		E4EABFB8164C19E00025EDEB /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB2164C19E00025EDEB /* NSString+Validation.m */; };
-		E4EABFB9164C19E00025EDEB /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */; };
-		E4EABFBA164C19E00025EDEB /* UIImage+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */; };
-		E4EABFC2164C1AC00025EDEB /* AkimboUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */; };
-		E4EABFC3164C1AC00025EDEB /* AkimboUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */; };
-		E4EABFC4164C1AC00025EDEB /* AkimboUITableViewControllerSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */; };
-		E4EABFCA164C1BC80025EDEB /* AkimboObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */; };
-		E4EABFCB164C1BC80025EDEB /* AkimboWeakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */; };
-		E4EABFD2164C1BD40025EDEB /* NSMutableArray+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */; };
-		E4EABFD3164C1BD40025EDEB /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */; };
-		E4EABFD7164C1C3B0025EDEB /* NSString+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */; };
-		E4EABFDC164C1D670025EDEB /* AkimboDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */; };
-		E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFDF164C1E000025EDEB /* AkimboUtils.m */; };
-		E4EABFE3164C22890025EDEB /* libakimbo-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */; };
 		E4EABFE6164C23310025EDEB /* ExampleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABFE5164C23310025EDEB /* ExampleTable.m */; };
 		E4EAC004164C4B690025EDEB /* ExampleTableSingleSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC003164C4B690025EDEB /* ExampleTableSingleSection.m */; };
 		E4EAC007164C4BCE0025EDEB /* ExampleTableMultipleSources.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC006164C4BCE0025EDEB /* ExampleTableMultipleSources.m */; };
 		E4EAC00E164C4D240025EDEB /* ExampleMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC00D164C4D240025EDEB /* ExampleMainNavigationViewController.m */; };
 		E4EAC011164C4D830025EDEB /* ExampleMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */; };
 		E4EAC014164C53FC0025EDEB /* ExampleTableMultipleSections.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */; };
-		E4EAC067164D90820025EDEB /* AkimboDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAC066164D90820025EDEB /* AkimboDraw.m */; };
+		F57379C5166D464000906AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		F57379D3166D464000906AC7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */; };
+		F57379D4166D464000906AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF4A164C17BB0025EDEB /* UIKit.framework */; };
+		F57379D5166D464000906AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EABF39164C17BB0025EDEB /* Foundation.framework */; };
+		F57379D8166D464000906AC7 /* libAkimbo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F57379C4166D464000906AC7 /* libAkimbo.a */; };
+		F5737A22166D470900906AC7 /* libAkimbo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F57379C4166D464000906AC7 /* libAkimbo.a */; };
+		F5737A4C166D47E600906AC7 /* Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A25166D47E600906AC7 /* Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A4D166D47E600906AC7 /* NSMutableArray+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A4E166D47E600906AC7 /* NSMutableArray+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */; };
+		F5737A4F166D47E600906AC7 /* NSMutableArray+Shuffling.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A50166D47E700906AC7 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */; };
+		F5737A51166D47E700906AC7 /* NSMutableArray+WeakReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A52166D47E700906AC7 /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */; };
+		F5737A53166D47E700906AC7 /* NSString+Akimbo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A54166D47E700906AC7 /* NSString+Akimbo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */; };
+		F5737A55166D47E700906AC7 /* NSString+Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A2F166D47E600906AC7 /* NSString+Validation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A56166D47E700906AC7 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A30166D47E600906AC7 /* NSString+Validation.m */; };
+		F5737A57166D47E700906AC7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A31166D47E600906AC7 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A58166D47E700906AC7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A32166D47E600906AC7 /* UIColor+Hex.m */; };
+		F5737A59166D47E700906AC7 /* UIImage+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A33166D47E600906AC7 /* UIImage+Drawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A5A166D47E700906AC7 /* UIImage+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A34166D47E600906AC7 /* UIImage+Drawing.m */; };
+		F5737A5B166D47E700906AC7 /* AkimboDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A36166D47E600906AC7 /* AkimboDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A5C166D47E700906AC7 /* AkimboDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A37166D47E600906AC7 /* AkimboDraw.m */; };
+		F5737A5D166D47E700906AC7 /* AkimboObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A39166D47E600906AC7 /* AkimboObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A5E166D47E700906AC7 /* AkimboObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3A166D47E600906AC7 /* AkimboObservable.m */; };
+		F5737A5F166D47E700906AC7 /* AkimboWeakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A60166D47E700906AC7 /* AkimboWeakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */; };
+		F5737A61166D47E700906AC7 /* AkimboDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A3E166D47E600906AC7 /* AkimboDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A62166D47E700906AC7 /* AkimboDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A3F166D47E600906AC7 /* AkimboDataStore.m */; };
+		F5737A63166D47E700906AC7 /* Akimbo-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A64166D47E700906AC7 /* AkimboUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A65166D47E700906AC7 /* AkimboUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */; };
+		F5737A66166D47E700906AC7 /* AkimboUITableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A67166D47E700906AC7 /* AkimboUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */; };
+		F5737A68166D47E700906AC7 /* AkimboUITableViewControllerSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A69166D47E700906AC7 /* AkimboUITableViewControllerSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */; };
+		F5737A6A166D47E700906AC7 /* AkimboUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F5737A4A166D47E600906AC7 /* AkimboUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5737A6B166D47E700906AC7 /* AkimboUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F5737A4B166D47E600906AC7 /* AkimboUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E4EABF4D164C17BB0025EDEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4EABF35164C17BB0025EDEB;
-			remoteInfo = "akimbo-ios";
-		};
 		E4EABF86164C18020025EDEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
@@ -67,38 +75,26 @@
 			remoteGlobalIDString = E4EABF64164C18010025EDEB;
 			remoteInfo = examples;
 		};
-		E4EABFE1164C22820025EDEB /* PBXContainerItemProxy */ = {
+		F57379D6166D464000906AC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E4EABF35164C17BB0025EDEB;
-			remoteInfo = "akimbo-ios";
+			remoteGlobalIDString = F57379C3166D464000906AC7;
+			remoteInfo = Akimbo;
+		};
+		F5737A20166D470300906AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EABF2D164C17BB0025EDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57379C3166D464000906AC7;
+			remoteInfo = Akimbo;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E4EABF34164C17BB0025EDEB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libakimbo-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EABF39164C17BB0025EDEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E4EABF3D164C17BB0025EDEB /* akimbo-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "akimbo-ios-Prefix.pch"; sourceTree = "<group>"; };
-		E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "akimbo-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EABF48164C17BB0025EDEB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E4EABF4A164C17BB0025EDEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E4EABF52164C17BB0025EDEB /* akimbo-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "akimbo-iosTests-Info.plist"; sourceTree = "<group>"; };
-		E4EABF54164C17BB0025EDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E4EABF56164C17BB0025EDEB /* akimbo_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = akimbo_iosTests.h; sourceTree = "<group>"; };
-		E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = akimbo_iosTests.m; sourceTree = "<group>"; };
 		E4EABF65164C18010025EDEB /* examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EABF69164C18010025EDEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E4EABF6D164C18010025EDEB /* examples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "examples-Info.plist"; sourceTree = "<group>"; };
@@ -115,37 +111,8 @@
 		E4EABF8C164C18020025EDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4EABF8E164C18020025EDEB /* examplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = examplesTests.h; sourceTree = "<group>"; };
 		E4EABF8F164C18020025EDEB /* examplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = examplesTests.m; sourceTree = "<group>"; };
-		E4EABFAF164C19E00025EDEB /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
-		E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
-		E4EABFB1164C19E00025EDEB /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
-		E4EABFB2164C19E00025EDEB /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
-		E4EABFB3164C19E00025EDEB /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		E4EABFB5164C19E00025EDEB /* UIImage+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawing.h"; sourceTree = "<group>"; };
-		E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawing.m"; sourceTree = "<group>"; };
-		E4EABFBC164C1AC00025EDEB /* AkimboUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewCell.h; sourceTree = "<group>"; };
-		E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewCell.m; sourceTree = "<group>"; };
-		E4EABFBE164C1AC00025EDEB /* AkimboUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewController.h; sourceTree = "<group>"; };
-		E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewController.m; sourceTree = "<group>"; };
-		E4EABFC0164C1AC00025EDEB /* AkimboUITableViewControllerSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewControllerSection.h; sourceTree = "<group>"; };
-		E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewControllerSection.m; sourceTree = "<group>"; };
-		E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboObservable.m; sourceTree = "<group>"; };
-		E4EABFC8164C1BC80025EDEB /* AkimboWeakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboWeakItem.h; sourceTree = "<group>"; };
-		E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboWeakItem.m; sourceTree = "<group>"; };
-		E4EABFCC164C1BD40025EDEB /* NSMutableArray+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Akimbo.h"; sourceTree = "<group>"; };
-		E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Akimbo.m"; sourceTree = "<group>"; };
-		E4EABFCE164C1BD40025EDEB /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
-		E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
-		E4EABFD5164C1C390025EDEB /* NSString+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Akimbo.h"; sourceTree = "<group>"; };
-		E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Akimbo.m"; sourceTree = "<group>"; };
-		E4EABFD8164C1CAE0025EDEB /* AkimboObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboObservable.h; sourceTree = "<group>"; };
-		E4EABFDA164C1D670025EDEB /* AkimboDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDataStore.h; sourceTree = "<group>"; };
-		E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDataStore.m; sourceTree = "<group>"; };
-		E4EABFDE164C1E000025EDEB /* AkimboUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUtils.h; sourceTree = "<group>"; };
-		E4EABFDF164C1E000025EDEB /* AkimboUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUtils.m; sourceTree = "<group>"; };
 		E4EABFE4164C23310025EDEB /* ExampleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTable.h; path = table/ExampleTable.h; sourceTree = "<group>"; };
 		E4EABFE5164C23310025EDEB /* ExampleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTable.m; path = table/ExampleTable.m; sourceTree = "<group>"; };
-		E4EABFE8164C23C10025EDEB /* Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akimbo.h; sourceTree = "<group>"; };
 		E4EAC002164C4B690025EDEB /* ExampleTableSingleSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableSingleSection.h; path = table/ExampleTableSingleSection.h; sourceTree = "<group>"; };
 		E4EAC003164C4B690025EDEB /* ExampleTableSingleSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableSingleSection.m; path = table/ExampleTableSingleSection.m; sourceTree = "<group>"; };
 		E4EAC005164C4BCE0025EDEB /* ExampleTableMultipleSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableMultipleSources.h; path = table/ExampleTableMultipleSources.h; sourceTree = "<group>"; };
@@ -156,35 +123,48 @@
 		E4EAC010164C4D830025EDEB /* ExampleMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMainTableViewController.m; sourceTree = "<group>"; };
 		E4EAC012164C53FB0025EDEB /* ExampleTableMultipleSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTableMultipleSections.h; path = table/ExampleTableMultipleSections.h; sourceTree = "<group>"; };
 		E4EAC013164C53FB0025EDEB /* ExampleTableMultipleSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTableMultipleSections.m; path = table/ExampleTableMultipleSections.m; sourceTree = "<group>"; };
-		E4EAC065164D90820025EDEB /* AkimboDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkimboDraw.h; path = draw/AkimboDraw.h; sourceTree = "<group>"; };
-		E4EAC066164D90820025EDEB /* AkimboDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AkimboDraw.m; path = draw/AkimboDraw.m; sourceTree = "<group>"; };
+		F57379C4166D464000906AC7 /* libAkimbo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAkimbo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57379D2166D464000906AC7 /* AkimboTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkimboTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5737A25166D47E600906AC7 /* Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akimbo.h; sourceTree = "<group>"; };
+		F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Akimbo.h"; sourceTree = "<group>"; };
+		F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Akimbo.m"; sourceTree = "<group>"; };
+		F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
+		F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
+		F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Akimbo.h"; sourceTree = "<group>"; };
+		F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Akimbo.m"; sourceTree = "<group>"; };
+		F5737A2F166D47E600906AC7 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		F5737A30166D47E600906AC7 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		F5737A31166D47E600906AC7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F5737A32166D47E600906AC7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F5737A33166D47E600906AC7 /* UIImage+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawing.h"; sourceTree = "<group>"; };
+		F5737A34166D47E600906AC7 /* UIImage+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawing.m"; sourceTree = "<group>"; };
+		F5737A36166D47E600906AC7 /* AkimboDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDraw.h; sourceTree = "<group>"; };
+		F5737A37166D47E600906AC7 /* AkimboDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDraw.m; sourceTree = "<group>"; };
+		F5737A39166D47E600906AC7 /* AkimboObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboObservable.h; sourceTree = "<group>"; };
+		F5737A3A166D47E600906AC7 /* AkimboObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboObservable.m; sourceTree = "<group>"; };
+		F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboWeakItem.h; sourceTree = "<group>"; };
+		F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboWeakItem.m; sourceTree = "<group>"; };
+		F5737A3E166D47E600906AC7 /* AkimboDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboDataStore.h; sourceTree = "<group>"; };
+		F5737A3F166D47E600906AC7 /* AkimboDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboDataStore.m; sourceTree = "<group>"; };
+		F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Akimbo-Prefix.pch"; sourceTree = "<group>"; };
+		F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewCell.h; sourceTree = "<group>"; };
+		F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewCell.m; sourceTree = "<group>"; };
+		F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewController.h; sourceTree = "<group>"; };
+		F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewController.m; sourceTree = "<group>"; };
+		F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUITableViewControllerSection.h; sourceTree = "<group>"; };
+		F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUITableViewControllerSection.m; sourceTree = "<group>"; };
+		F5737A4A166D47E600906AC7 /* AkimboUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkimboUtils.h; sourceTree = "<group>"; };
+		F5737A4B166D47E600906AC7 /* AkimboUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkimboUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E4EABF33164C17BB0025EDEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4EABF3A164C17BB0025EDEB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4EABF43164C17BB0025EDEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4EABF49164C17BB0025EDEB /* SenTestingKit.framework in Frameworks */,
-				E4EABF4B164C17BB0025EDEB /* UIKit.framework in Frameworks */,
-				E4EABF4C164C17BB0025EDEB /* Foundation.framework in Frameworks */,
-				E4EABF4F164C17BB0025EDEB /* libakimbo-ios.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4EABF62164C18010025EDEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4EABFE3164C22890025EDEB /* libakimbo-ios.a in Frameworks */,
+				F5737A22166D470900906AC7 /* libAkimbo.a in Frameworks */,
 				E4EABF67164C18010025EDEB /* UIKit.framework in Frameworks */,
 				E4EABF68164C18010025EDEB /* Foundation.framework in Frameworks */,
 				E4EABF6A164C18010025EDEB /* CoreGraphics.framework in Frameworks */,
@@ -201,14 +181,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F57379C1166D464000906AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57379C5166D464000906AC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57379CE166D464000906AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57379D3166D464000906AC7 /* SenTestingKit.framework in Frameworks */,
+				F57379D4166D464000906AC7 /* UIKit.framework in Frameworks */,
+				F57379D5166D464000906AC7 /* Foundation.framework in Frameworks */,
+				F57379D8166D464000906AC7 /* libAkimbo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E4EABF2B164C17BB0025EDEB = {
 			isa = PBXGroup;
 			children = (
-				E4EABF3B164C17BB0025EDEB /* akimbo-ios */,
-				E4EABF50164C17BB0025EDEB /* akimbo-iosTests */,
+				F57379E8166D468A00906AC7 /* Akimbo */,
 				E4EABF6B164C18010025EDEB /* examples */,
 				E4EABF88164C18020025EDEB /* examplesTests */,
 				E4EABF38164C17BB0025EDEB /* Frameworks */,
@@ -219,10 +217,10 @@
 		E4EABF37164C17BB0025EDEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */,
-				E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */,
 				E4EABF65164C18010025EDEB /* examples.app */,
 				E4EABF82164C18020025EDEB /* examplesTests.octest */,
+				F57379C4166D464000906AC7 /* libAkimbo.a */,
+				F57379D2166D464000906AC7 /* AkimboTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,42 +234,6 @@
 				E4EABF69164C18010025EDEB /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4EABF3B164C17BB0025EDEB /* akimbo-ios */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFAD164C19E00025EDEB /* src */,
-				E4EABF3C164C17BB0025EDEB /* Supporting Files */,
-			);
-			path = "akimbo-ios";
-			sourceTree = "<group>";
-		};
-		E4EABF3C164C17BB0025EDEB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABF3D164C17BB0025EDEB /* akimbo-ios-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E4EABF50164C17BB0025EDEB /* akimbo-iosTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABF56164C17BB0025EDEB /* akimbo_iosTests.h */,
-				E4EABF57164C17BB0025EDEB /* akimbo_iosTests.m */,
-				E4EABF51164C17BB0025EDEB /* Supporting Files */,
-			);
-			path = "akimbo-iosTests";
-			sourceTree = "<group>";
-		};
-		E4EABF51164C17BB0025EDEB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABF52164C17BB0025EDEB /* akimbo-iosTests-Info.plist */,
-				E4EABF53164C17BB0025EDEB /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E4EABF6B164C18010025EDEB /* examples */ = {
@@ -319,83 +281,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4EABFAD164C19E00025EDEB /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFE8164C23C10025EDEB /* Akimbo.h */,
-				E4EABFAE164C19E00025EDEB /* categories */,
-				E4EAC069164D90880025EDEB /* draw */,
-				E4EABFC5164C1BC80025EDEB /* observable */,
-				E4EABFD9164C1D670025EDEB /* store */,
-				E4EABFBB164C1AC00025EDEB /* table */,
-				E4EABFDD164C1E000025EDEB /* utils */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		E4EABFAE164C19E00025EDEB /* categories */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFCC164C1BD40025EDEB /* NSMutableArray+Akimbo.h */,
-				E4EABFCD164C1BD40025EDEB /* NSMutableArray+Akimbo.m */,
-				E4EABFAF164C19E00025EDEB /* NSMutableArray+Shuffling.h */,
-				E4EABFB0164C19E00025EDEB /* NSMutableArray+Shuffling.m */,
-				E4EABFCE164C1BD40025EDEB /* NSMutableArray+WeakReferences.h */,
-				E4EABFCF164C1BD40025EDEB /* NSMutableArray+WeakReferences.m */,
-				E4EABFD5164C1C390025EDEB /* NSString+Akimbo.h */,
-				E4EABFD6164C1C3A0025EDEB /* NSString+Akimbo.m */,
-				E4EABFB1164C19E00025EDEB /* NSString+Validation.h */,
-				E4EABFB2164C19E00025EDEB /* NSString+Validation.m */,
-				E4EABFB3164C19E00025EDEB /* UIColor+Hex.h */,
-				E4EABFB4164C19E00025EDEB /* UIColor+Hex.m */,
-				E4EABFB5164C19E00025EDEB /* UIImage+Drawing.h */,
-				E4EABFB6164C19E00025EDEB /* UIImage+Drawing.m */,
-			);
-			path = categories;
-			sourceTree = "<group>";
-		};
-		E4EABFBB164C1AC00025EDEB /* table */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFBC164C1AC00025EDEB /* AkimboUITableViewCell.h */,
-				E4EABFBD164C1AC00025EDEB /* AkimboUITableViewCell.m */,
-				E4EABFBE164C1AC00025EDEB /* AkimboUITableViewController.h */,
-				E4EABFBF164C1AC00025EDEB /* AkimboUITableViewController.m */,
-				E4EABFC0164C1AC00025EDEB /* AkimboUITableViewControllerSection.h */,
-				E4EABFC1164C1AC00025EDEB /* AkimboUITableViewControllerSection.m */,
-			);
-			path = table;
-			sourceTree = "<group>";
-		};
-		E4EABFC5164C1BC80025EDEB /* observable */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFD8164C1CAE0025EDEB /* AkimboObservable.h */,
-				E4EABFC7164C1BC80025EDEB /* AkimboObservable.m */,
-				E4EABFC8164C1BC80025EDEB /* AkimboWeakItem.h */,
-				E4EABFC9164C1BC80025EDEB /* AkimboWeakItem.m */,
-			);
-			path = observable;
-			sourceTree = "<group>";
-		};
-		E4EABFD9164C1D670025EDEB /* store */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFDA164C1D670025EDEB /* AkimboDataStore.h */,
-				E4EABFDB164C1D670025EDEB /* AkimboDataStore.m */,
-			);
-			path = store;
-			sourceTree = "<group>";
-		};
-		E4EABFDD164C1E000025EDEB /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				E4EABFDE164C1E000025EDEB /* AkimboUtils.h */,
-				E4EABFDF164C1E000025EDEB /* AkimboUtils.m */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		E4EABFE7164C23370025EDEB /* table */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,54 +307,139 @@
 			path = main;
 			sourceTree = "<group>";
 		};
-		E4EAC069164D90880025EDEB /* draw */ = {
+		F57379E8166D468A00906AC7 /* Akimbo */ = {
 			isa = PBXGroup;
 			children = (
-				E4EAC065164D90820025EDEB /* AkimboDraw.h */,
-				E4EAC066164D90820025EDEB /* AkimboDraw.m */,
+				F5737A24166D47E600906AC7 /* Code */,
 			);
-			name = draw;
+			name = Akimbo;
+			sourceTree = "<group>";
+		};
+		F5737A24166D47E600906AC7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A25166D47E600906AC7 /* Akimbo.h */,
+				F5737A26166D47E600906AC7 /* categories */,
+				F5737A35166D47E600906AC7 /* draw */,
+				F5737A38166D47E600906AC7 /* observable */,
+				F5737A3D166D47E600906AC7 /* store */,
+				F5737A40166D47E600906AC7 /* Support */,
+				F5737A42166D47E600906AC7 /* table */,
+				F5737A49166D47E600906AC7 /* utils */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		F5737A26166D47E600906AC7 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A27166D47E600906AC7 /* NSMutableArray+Akimbo.h */,
+				F5737A28166D47E600906AC7 /* NSMutableArray+Akimbo.m */,
+				F5737A29166D47E600906AC7 /* NSMutableArray+Shuffling.h */,
+				F5737A2A166D47E600906AC7 /* NSMutableArray+Shuffling.m */,
+				F5737A2B166D47E600906AC7 /* NSMutableArray+WeakReferences.h */,
+				F5737A2C166D47E600906AC7 /* NSMutableArray+WeakReferences.m */,
+				F5737A2D166D47E600906AC7 /* NSString+Akimbo.h */,
+				F5737A2E166D47E600906AC7 /* NSString+Akimbo.m */,
+				F5737A2F166D47E600906AC7 /* NSString+Validation.h */,
+				F5737A30166D47E600906AC7 /* NSString+Validation.m */,
+				F5737A31166D47E600906AC7 /* UIColor+Hex.h */,
+				F5737A32166D47E600906AC7 /* UIColor+Hex.m */,
+				F5737A33166D47E600906AC7 /* UIImage+Drawing.h */,
+				F5737A34166D47E600906AC7 /* UIImage+Drawing.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		F5737A35166D47E600906AC7 /* draw */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A36166D47E600906AC7 /* AkimboDraw.h */,
+				F5737A37166D47E600906AC7 /* AkimboDraw.m */,
+			);
+			path = draw;
+			sourceTree = "<group>";
+		};
+		F5737A38166D47E600906AC7 /* observable */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A39166D47E600906AC7 /* AkimboObservable.h */,
+				F5737A3A166D47E600906AC7 /* AkimboObservable.m */,
+				F5737A3B166D47E600906AC7 /* AkimboWeakItem.h */,
+				F5737A3C166D47E600906AC7 /* AkimboWeakItem.m */,
+			);
+			path = observable;
+			sourceTree = "<group>";
+		};
+		F5737A3D166D47E600906AC7 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A3E166D47E600906AC7 /* AkimboDataStore.h */,
+				F5737A3F166D47E600906AC7 /* AkimboDataStore.m */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		F5737A40166D47E600906AC7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A41166D47E600906AC7 /* Akimbo-Prefix.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F5737A42166D47E600906AC7 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A43166D47E600906AC7 /* AkimboUITableViewCell.h */,
+				F5737A44166D47E600906AC7 /* AkimboUITableViewCell.m */,
+				F5737A45166D47E600906AC7 /* AkimboUITableViewController.h */,
+				F5737A46166D47E600906AC7 /* AkimboUITableViewController.m */,
+				F5737A47166D47E600906AC7 /* AkimboUITableViewControllerSection.h */,
+				F5737A48166D47E600906AC7 /* AkimboUITableViewControllerSection.m */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		F5737A49166D47E600906AC7 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5737A4A166D47E600906AC7 /* AkimboUtils.h */,
+				F5737A4B166D47E600906AC7 /* AkimboUtils.m */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F5737A23166D47DB00906AC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5737A4C166D47E600906AC7 /* Akimbo.h in Headers */,
+				F5737A4D166D47E600906AC7 /* NSMutableArray+Akimbo.h in Headers */,
+				F5737A4F166D47E600906AC7 /* NSMutableArray+Shuffling.h in Headers */,
+				F5737A51166D47E700906AC7 /* NSMutableArray+WeakReferences.h in Headers */,
+				F5737A53166D47E700906AC7 /* NSString+Akimbo.h in Headers */,
+				F5737A55166D47E700906AC7 /* NSString+Validation.h in Headers */,
+				F5737A57166D47E700906AC7 /* UIColor+Hex.h in Headers */,
+				F5737A59166D47E700906AC7 /* UIImage+Drawing.h in Headers */,
+				F5737A5B166D47E700906AC7 /* AkimboDraw.h in Headers */,
+				F5737A5D166D47E700906AC7 /* AkimboObservable.h in Headers */,
+				F5737A5F166D47E700906AC7 /* AkimboWeakItem.h in Headers */,
+				F5737A61166D47E700906AC7 /* AkimboDataStore.h in Headers */,
+				F5737A63166D47E700906AC7 /* Akimbo-Prefix.pch in Headers */,
+				F5737A64166D47E700906AC7 /* AkimboUITableViewCell.h in Headers */,
+				F5737A66166D47E700906AC7 /* AkimboUITableViewController.h in Headers */,
+				F5737A68166D47E700906AC7 /* AkimboUITableViewControllerSection.h in Headers */,
+				F5737A6A166D47E700906AC7 /* AkimboUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		E4EABF35164C17BB0025EDEB /* akimbo-ios */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4EABF5B164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-ios" */;
-			buildPhases = (
-				E4EABF32164C17BB0025EDEB /* Sources */,
-				E4EABF33164C17BB0025EDEB /* Frameworks */,
-				E4EABF34164C17BB0025EDEB /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "akimbo-ios";
-			productName = "akimbo-ios";
-			productReference = E4EABF36164C17BB0025EDEB /* libakimbo-ios.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E4EABF46164C17BB0025EDEB /* akimbo-iosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4EABF5E164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-iosTests" */;
-			buildPhases = (
-				E4EABF42164C17BB0025EDEB /* Sources */,
-				E4EABF43164C17BB0025EDEB /* Frameworks */,
-				E4EABF44164C17BB0025EDEB /* Resources */,
-				E4EABF45164C17BB0025EDEB /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4EABF4E164C17BB0025EDEB /* PBXTargetDependency */,
-			);
-			name = "akimbo-iosTests";
-			productName = "akimbo-iosTests";
-			productReference = E4EABF47164C17BB0025EDEB /* akimbo-iosTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		E4EABF64164C18010025EDEB /* examples */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4EABF91164C18020025EDEB /* Build configuration list for PBXNativeTarget "examples" */;
@@ -481,7 +451,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E4EABFE2164C22820025EDEB /* PBXTargetDependency */,
+				F5737A21166D470300906AC7 /* PBXTargetDependency */,
 			);
 			name = examples;
 			productName = examples;
@@ -507,6 +477,42 @@
 			productReference = E4EABF82164C18020025EDEB /* examplesTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F57379C3166D464000906AC7 /* Akimbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57379E2166D464000906AC7 /* Build configuration list for PBXNativeTarget "Akimbo" */;
+			buildPhases = (
+				F57379C0166D464000906AC7 /* Sources */,
+				F57379C1166D464000906AC7 /* Frameworks */,
+				F5737A23166D47DB00906AC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akimbo;
+			productName = Akimbo;
+			productReference = F57379C4166D464000906AC7 /* libAkimbo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F57379D1166D464000906AC7 /* AkimboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57379E5166D464000906AC7 /* Build configuration list for PBXNativeTarget "AkimboTests" */;
+			buildPhases = (
+				F57379CD166D464000906AC7 /* Sources */,
+				F57379CE166D464000906AC7 /* Frameworks */,
+				F57379CF166D464000906AC7 /* Resources */,
+				F57379D0166D464000906AC7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57379D7166D464000906AC7 /* PBXTargetDependency */,
+			);
+			name = AkimboTests;
+			productName = AkimboTests;
+			productReference = F57379D2166D464000906AC7 /* AkimboTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -528,23 +534,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4EABF35164C17BB0025EDEB /* akimbo-ios */,
-				E4EABF46164C17BB0025EDEB /* akimbo-iosTests */,
 				E4EABF64164C18010025EDEB /* examples */,
 				E4EABF81164C18020025EDEB /* examplesTests */,
+				F57379C3166D464000906AC7 /* Akimbo */,
+				F57379D1166D464000906AC7 /* AkimboTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4EABF44164C17BB0025EDEB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4EABF55164C17BB0025EDEB /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4EABF63164C18010025EDEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -564,10 +562,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F57379CF166D464000906AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E4EABF45164C17BB0025EDEB /* ShellScript */ = {
+		E4EABF80164C18020025EDEB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,7 +585,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		E4EABF80164C18020025EDEB /* ShellScript */ = {
+		F57379D0166D464000906AC7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,36 +601,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E4EABF32164C17BB0025EDEB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4EABFB7164C19E00025EDEB /* NSMutableArray+Shuffling.m in Sources */,
-				E4EABFB8164C19E00025EDEB /* NSString+Validation.m in Sources */,
-				E4EABFB9164C19E00025EDEB /* UIColor+Hex.m in Sources */,
-				E4EABFBA164C19E00025EDEB /* UIImage+Drawing.m in Sources */,
-				E4EABFC2164C1AC00025EDEB /* AkimboUITableViewCell.m in Sources */,
-				E4EABFC3164C1AC00025EDEB /* AkimboUITableViewController.m in Sources */,
-				E4EABFC4164C1AC00025EDEB /* AkimboUITableViewControllerSection.m in Sources */,
-				E4EABFCA164C1BC80025EDEB /* AkimboObservable.m in Sources */,
-				E4EABFCB164C1BC80025EDEB /* AkimboWeakItem.m in Sources */,
-				E4EABFD2164C1BD40025EDEB /* NSMutableArray+Akimbo.m in Sources */,
-				E4EABFD3164C1BD40025EDEB /* NSMutableArray+WeakReferences.m in Sources */,
-				E4EABFD7164C1C3B0025EDEB /* NSString+Akimbo.m in Sources */,
-				E4EABFDC164C1D670025EDEB /* AkimboDataStore.m in Sources */,
-				E4EABFE0164C1E000025EDEB /* AkimboUtils.m in Sources */,
-				E4EAC067164D90820025EDEB /* AkimboDraw.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4EABF42164C17BB0025EDEB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4EABF58164C17BB0025EDEB /* akimbo_iosTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4EABF61164C18010025EDEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,35 +624,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F57379C0166D464000906AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5737A4E166D47E600906AC7 /* NSMutableArray+Akimbo.m in Sources */,
+				F5737A50166D47E700906AC7 /* NSMutableArray+Shuffling.m in Sources */,
+				F5737A52166D47E700906AC7 /* NSMutableArray+WeakReferences.m in Sources */,
+				F5737A54166D47E700906AC7 /* NSString+Akimbo.m in Sources */,
+				F5737A56166D47E700906AC7 /* NSString+Validation.m in Sources */,
+				F5737A58166D47E700906AC7 /* UIColor+Hex.m in Sources */,
+				F5737A5A166D47E700906AC7 /* UIImage+Drawing.m in Sources */,
+				F5737A5C166D47E700906AC7 /* AkimboDraw.m in Sources */,
+				F5737A5E166D47E700906AC7 /* AkimboObservable.m in Sources */,
+				F5737A60166D47E700906AC7 /* AkimboWeakItem.m in Sources */,
+				F5737A62166D47E700906AC7 /* AkimboDataStore.m in Sources */,
+				F5737A65166D47E700906AC7 /* AkimboUITableViewCell.m in Sources */,
+				F5737A67166D47E700906AC7 /* AkimboUITableViewController.m in Sources */,
+				F5737A69166D47E700906AC7 /* AkimboUITableViewControllerSection.m in Sources */,
+				F5737A6B166D47E700906AC7 /* AkimboUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57379CD166D464000906AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E4EABF4E164C17BB0025EDEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4EABF35164C17BB0025EDEB /* akimbo-ios */;
-			targetProxy = E4EABF4D164C17BB0025EDEB /* PBXContainerItemProxy */;
-		};
 		E4EABF87164C18020025EDEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4EABF64164C18010025EDEB /* examples */;
 			targetProxy = E4EABF86164C18020025EDEB /* PBXContainerItemProxy */;
 		};
-		E4EABFE2164C22820025EDEB /* PBXTargetDependency */ = {
+		F57379D7166D464000906AC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4EABF35164C17BB0025EDEB /* akimbo-ios */;
-			targetProxy = E4EABFE1164C22820025EDEB /* PBXContainerItemProxy */;
+			target = F57379C3166D464000906AC7 /* Akimbo */;
+			targetProxy = F57379D6166D464000906AC7 /* PBXContainerItemProxy */;
+		};
+		F5737A21166D470300906AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57379C3166D464000906AC7 /* Akimbo */;
+			targetProxy = F5737A20166D470300906AC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4EABF53164C17BB0025EDEB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4EABF54164C17BB0025EDEB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		E4EABF6E164C18010025EDEB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -718,6 +714,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
@@ -737,63 +734,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E4EABF5C164C17BB0025EDEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/akimbo_ios.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E4EABF5D164C17BB0025EDEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/akimbo_ios.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E4EABF5F164C17BB0025EDEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
-				INFOPLIST_FILE = "akimbo-iosTests/akimbo-iosTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		E4EABF60164C17BB0025EDEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "akimbo-ios/akimbo-ios-Prefix.pch";
-				INFOPLIST_FILE = "akimbo-iosTests/akimbo-iosTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -866,6 +810,70 @@
 			};
 			name = Release;
 		};
+		F57379E3166D464000906AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Akimbo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Support/Akimbo-Prefix.pch";
+				OBJROOT = "$(SRCROOT)/Build";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
+			};
+			name = Debug;
+		};
+		F57379E4166D464000906AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Akimbo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Support/Akimbo-Prefix.pch";
+				OBJROOT = "$(SRCROOT)/Build";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
+			};
+			name = Release;
+		};
+		F57379E6166D464000906AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Akimbo/Akimbo-Prefix.pch";
+				INFOPLIST_FILE = "AkimboTests/AkimboTests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F57379E7166D464000906AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Akimbo/Akimbo-Prefix.pch";
+				INFOPLIST_FILE = "AkimboTests/AkimboTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -874,24 +882,6 @@
 			buildConfigurations = (
 				E4EABF59164C17BB0025EDEB /* Debug */,
 				E4EABF5A164C17BB0025EDEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4EABF5B164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4EABF5C164C17BB0025EDEB /* Debug */,
-				E4EABF5D164C17BB0025EDEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4EABF5E164C17BB0025EDEB /* Build configuration list for PBXNativeTarget "akimbo-iosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4EABF5F164C17BB0025EDEB /* Debug */,
-				E4EABF60164C17BB0025EDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -913,6 +903,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F57379E2166D464000906AC7 /* Build configuration list for PBXNativeTarget "Akimbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57379E3166D464000906AC7 /* Debug */,
+				F57379E4166D464000906AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F57379E5166D464000906AC7 /* Build configuration list for PBXNativeTarget "AkimboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57379E6166D464000906AC7 /* Debug */,
+				F57379E7166D464000906AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,14 +1,14 @@
 //
-//  akimbo_iosTests.m
-//  akimbo-iosTests
+//  AkimboTests.m
+//  AkimboTests
 //
-//  Created by Jared Lewis on 11/8/12.
+//  Created by Wes Okes on 12/3/12.
 //  Copyright (c) 2012 Akimbo. All rights reserved.
 //
 
-#import "akimbo_iosTests.h"
+#import "AkimboTests.h"
 
-@implementation akimbo_iosTests
+@implementation AkimboTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in akimbo-iosTests");
+    STFail(@"Unit tests are not implemented yet in AkimboTests");
 }
 
 @end
