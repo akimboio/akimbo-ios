@@ -13,13 +13,12 @@ void runOnMainThread(void (^block)(void))
 {
     // this check avoids possible deadlock resulting from
     // calling dispatch_sync() on the same queue as current one
-    dispatch_queue_t mainQueue = dispatch_get_main_queue();
-    if (mainQueue == dispatch_get_current_queue()) {
+    if ([NSThread isMainThread]) {
         // execute code in place
         block();
     } else {
         // dispatch doStuff() to main queue
-        dispatch_sync(mainQueue, block);
+        dispatch_sync(dispatch_get_main_queue(), block);
     }
 }
 
